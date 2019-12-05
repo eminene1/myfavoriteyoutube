@@ -1,0 +1,72 @@
+
+h1 {color: black;
+  text-decoration: none;
+  text-align:center;
+  border-bottom:0px;
+  margin-bottom: :0px;
+  padding:20px;}
+
+body{background-color: #a0d4f7;
+     font-family:Han Sans;}
+
+  a {text-decoration: none;
+   font-size: 25px;
+   color: black;}
+   a:visited{color:black;}
+   a:hover{color:green;}
+   a:active{color:green;}
+
+  ol{border-right: 0px;
+  width: 100px;
+  margin:0px;
+  padding: 20px;
+  font-size: 30px;}
+
+
+
+  h2 {text-align: center;
+  border-bottom: 2px
+solid rgb(217, 217, 217);
+margin:0px;}
+
+  ol {margin-left: 50px;}
+
+  th, tr{padding:20px;
+         text-align: center;
+         border: 2px solid #b3b3b3}
+  table {border-collapse: collapse;
+        width:300px;
+        margin: 30px;}
+  tr{background-color:white}
+
+  iframe{margin: 20px}
+
+#word{text-align: left;
+   font-weight: bold;
+   color: rgb(46, 68, 83);
+   font-style: italic;}
+
+#grid{ display: grid;
+grid-template-columns: 300px  600px 600px ;}
+
+#Navigation{
+border-right: 2px solid rgb(217, 217, 217)}
+
+#comment{font-size: 15px;
+text-align: center;}
+
+@media only screen and (max-width:800px){
+#grid{
+display: block;
+border-bottom: none;
+}
+ol{
+margin-left: none;
+}
+h1 {
+border-bottom:none;}
+h2{text-align:center;
+  padding-bottom: 10px;
+}
+#Navigation{border-right: 0px}
+}
